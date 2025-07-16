@@ -1,4 +1,4 @@
-import Header from "../../../component/eventDashboard/Header";
+import Header from "../../component/eventDashboard/Header";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (

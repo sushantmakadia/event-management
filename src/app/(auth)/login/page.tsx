@@ -2,9 +2,9 @@
 import '@/app/(auth)/auth.css';
 import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
-import { useAuth } from '../../../../context/authContext';
+import { useAuth } from '../../../context/authContext';
 import Link from 'next/link';
-import { User } from '../../../../types/auth';
+import { User } from '../../../types/auth';
 
 const Login: React.FC = () => {
     const { register, handleSubmit, formState: { errors } } = useForm<User>();

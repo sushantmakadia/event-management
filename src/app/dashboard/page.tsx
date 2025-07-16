@@ -1,14 +1,14 @@
 "use client"
 import './dashboard.css';
 import { useEffect, useState } from "react";
-import EventForm from "../../../component/eventDashboard/EventForm";
-import { useEventContext } from "../../../context/EventContext";
-import EventCard from "../../../component/eventDashboard/EventCard";
+import EventForm from "../../component/eventDashboard/EventForm";
+import { useEventContext } from "../../context/EventContext";
+import EventCard from "../../component/eventDashboard/EventCard";
 import { useRouter, useSearchParams } from 'next/navigation';
-import FilterPanel from '../../../component/eventDashboard/FilterPanel';
-import { useFilterContext } from '../../../context/filterContext';
-import { EventData, EventFormValues } from '../../../types/eventType';
-import { useAuth } from '../../../context/authContext';
+import FilterPanel from '../../component/eventDashboard/FilterPanel';
+import { useFilterContext } from '../../context/filterContext';
+import { EventData, EventFormValues } from '../../types/eventType';
+import { useAuth } from '../../context/authContext';
 
 const Dashboard = ()=>{
     const [showEventForm,setShowEventForm]= useState({show:false,data:{},type:''});
