@@ -1,0 +1,49 @@
+.event-container {
+    width: 100%;
+    padding: 30px;
+    width: 100%;
+}
+
+.filter-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.filter-items {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-items button[type='button'] {
+  background-color: slategrey;
+  padding: 10px;
+  border-radius: 8px;;
+  color: white;
+  border: none;
+}
+
+.filter-items button[type='button']:hover {
+  background-color: grey;
+}
+
+.filter-container input {
+  width: 50%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.header-container {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.header-container button {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: red;
+  border: none;
+  color: white;
+}
